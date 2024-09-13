@@ -1,8 +1,8 @@
 # Redwattlehog
 
 
+![Untitled](https://github.com/user-attachments/assets/dd90ece6-4375-4474-b9f1-6e1572766159)
 
-<img width="460" height="60" src="https://trustedclicks.ai/wp-content/uploads/2024/06/image_2024_06_21T16_21_52_922Z.png" >
 
 
 <h2>Website Description</h2>
