@@ -6,21 +6,21 @@
 
 
 <h2>Website Description</h2>
-Discover high risk visitors browsing on your website. Our AI algorithms deliver precise risk score for every visitor IP. Reduce operational costs by fending off unwanted visitors.
+Discover the finest pork products at Redwattlehog.com. We specialize in providing fresh, locally sourced pork cuts, prepared with care and expertise. Whether you're looking for juicy pork chops, flavorful bacon, or tender sausages, we have something to satisfy every palate. Enjoy the rich taste and nutritional benefits of pork, delivered right to your doorstep. Order online today and experience the difference!
 
 <h2>Featureas</h2>
   <ul>
-  <li>TrustedClicks analyzes each IP address, assigning dynamic risk scores so that you can Proactively identify and block suspicious visitors as they access your platform...</li>
- <li>Unlock the highest level of precision with TrustedClicks. Utilizing cutting-edge AI technology, our platform provides you with the most current and accurate IP risk scores, providing your business with reliable insights and increased security..</li>
-    <li>Effortlessly integrate our software in just 10 minutes with any programming language. Enjoy simplicity at its finest, ensuring swift deployment and immediate results for your business.</li>
-    <li>Easily integrate TrustedClicks into your website with our user-friendly API. Having our clear documentation and robust support, you’ll be up and running in no time, protecting your platform from potential threats with confidence.</li>
+  <li>Fresh and Locally Sourced: Emphasize the quality and freshness of your pork products, sourced from local farms...</li>
+ <li>Variety of Cuts: Mention the different cuts of pork available, such as chops, bacon, sausages, and roasts..</li>
+    <li>Convenience of Online Ordering: Highlight the ease of ordering pork products online and having them delivered to your door.</li>
+    <li>Quality and Safety: Assure customers of the high standards of hygiene and safety maintained in your meat processing facilities.</li>
   </ul>
 
 <h2>Demo</h2>
-You can see a live demo of this website: <a href="https://trustedclicks.ai/" target="_blank"> https://trustedclicks.ai/ </a>
+You can see a live demo of this website: <a href="https://redwattlehog.com/"> Redwattlehog </a>
 
 <h2>Technolgies Used</h2>
-Front-end Framework: HTML <br>
+Front-end Framework: HTML Boostrap CSS <br>
 JavaScript Libraries (e.g., jQuery) <br>
 Backend Framework: Core PHP <br>
 Database: MySQL <br>
