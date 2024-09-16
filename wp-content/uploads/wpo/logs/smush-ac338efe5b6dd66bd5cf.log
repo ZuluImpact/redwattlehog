@@ -1,0 +1,9 @@
+[2024-09-10 17:30:01 : INFO] - Re_Smush_It_Task server status: Online 
+[2024-09-10 17:30:02 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2024-09-10 17:30:02 : INFO] - Re_Smush_It_Task - attachment ID : 1036, started on : September 10, 2024 05:30:02 
+[2024-09-10 17:30:02 : INFO] - File: 259A7270-scaled.jpg, Compression quality: 92 
+[2024-09-10 17:30:06 : INFO] - Backing up the original image - 2024/09/259A7270-scaled-updraft-pre-smush-original.jpg 
+[2024-09-10 17:30:16 : INFO] - There were no WebP conversion tools found on your server. 
+[2024-09-10 17:30:16 : INFO] - Successfully optimized the image - /home/redwattl/public_html/wp-content/uploads/2024/09/259A7270-scaled.jpg.The file was compressed from 615.12 KB to 570.13 KB, saving 7.31 percent, using WP-Optimize 
+[2024-09-10 17:30:16 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2024-09-10 19:32:06 : INFO] - Pruning the smush log file 

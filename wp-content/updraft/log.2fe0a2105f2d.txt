@@ -1,0 +1,447 @@
+0000.001 (0) Opened log file at time: Mon, 16 Sep 2024 05:26:54 +0000 on https://redwattlehog.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.6.2 PHP: 8.2.22 (fpm-fcgi, Linux zephyr.wznoc.com 4.18.0-553.16.1.el8_10.x86_64 #1 SMP Thu Aug 8 07:11:46 EDT 2024 x86_64) MySQL: 10.6.19-MariaDB-log (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 67.9M | 70M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 432718.1 MB
+0000.002 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.002 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.008 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1726377482, seconds_ago=86932)
+0000.008 (0) Set semaphore last lock (fd) time to 2024-09-16 05:26:54
+0000.008 (0) Semaphore lock (fd) complete
+0000.009 (0) Backup run: resumption=0, nonce=2fe0a2105f2d, file_nonce=2fe0a2105f2d begun at=1726464414 (0s ago), job type=backup
+0000.010 (0) Scheduling a resumption (1) after 300 seconds (1726464714) in case this run gets aborted
+0000.017 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/home/redwattl:/usr/lib/php:/usr/local/lib/php:/tmp) (line 190, wp-content/plugins/updraftplus/backup.php)
+0000.017 (0) Checking if we have a zip executable available
+0000.018 (0) Creation of backups of directories: beginning
+0000.019 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.020 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0001.401 (0) Total entities for the zip file: 1988 directories, 8487 files (0 skipped as non-modified), 175.2 MB
+0001.430 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.453 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.477 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.501 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.524 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.548 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.571 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.594 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.619 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.645 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.646 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.2 MB, 8487 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.676 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 1100 files added (on-disk size: 4325.9 KB)
+0002.705 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 1200 files added (on-disk size: 4325.9 KB)
+0002.732 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 1300 files added (on-disk size: 4325.9 KB)
+0002.759 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 1400 files added (on-disk size: 4325.9 KB)
+0002.785 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 1500 files added (on-disk size: 4325.9 KB)
+0002.810 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 1600 files added (on-disk size: 4325.9 KB)
+0002.835 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 1700 files added (on-disk size: 4325.9 KB)
+0002.860 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 1800 files added (on-disk size: 4325.9 KB)
+0002.883 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 1900 files added (on-disk size: 4325.9 KB)
+0002.906 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 2000 files added (on-disk size: 4325.9 KB)
+0002.906 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.8 MB, 8487 files batched, 1001 (2002) added so far); re-opening (prior size: 4325.9 KB)
+0004.074 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 2100 files added (on-disk size: 10515 KB)
+0004.095 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 2200 files added (on-disk size: 10515 KB)
+0004.118 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 2300 files added (on-disk size: 10515 KB)
+0004.140 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 2400 files added (on-disk size: 10515 KB)
+0004.164 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 2500 files added (on-disk size: 10515 KB)
+0004.188 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 2600 files added (on-disk size: 10515 KB)
+0004.213 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 2700 files added (on-disk size: 10515 KB)
+0004.243 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 2800 files added (on-disk size: 10515 KB)
+0004.275 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 2900 files added (on-disk size: 10515 KB)
+0004.300 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 3000 files added (on-disk size: 10515 KB)
+0004.301 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.9 MB, 8487 files batched, 1001 (3003) added so far); re-opening (prior size: 10515 KB)
+0005.229 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 3100 files added (on-disk size: 15382.8 KB)
+0005.261 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 3200 files added (on-disk size: 15382.8 KB)
+0005.291 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 3300 files added (on-disk size: 15382.8 KB)
+0005.317 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 3400 files added (on-disk size: 15382.8 KB)
+0005.339 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 3500 files added (on-disk size: 15382.8 KB)
+0005.360 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 3600 files added (on-disk size: 15382.8 KB)
+0005.380 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 3700 files added (on-disk size: 15382.8 KB)
+0005.402 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 3800 files added (on-disk size: 15382.8 KB)
+0005.421 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 3900 files added (on-disk size: 15382.8 KB)
+0005.444 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 4000 files added (on-disk size: 15382.8 KB)
+0005.446 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.2 MB, 8487 files batched, 1001 (4004) added so far); re-opening (prior size: 15382.8 KB)
+0007.080 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 4100 files added (on-disk size: 22992.5 KB)
+0007.106 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 4200 files added (on-disk size: 22992.5 KB)
+0007.128 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 4300 files added (on-disk size: 22992.5 KB)
+0007.151 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 4400 files added (on-disk size: 22992.5 KB)
+0007.176 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 4500 files added (on-disk size: 22992.5 KB)
+0007.206 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 4600 files added (on-disk size: 22992.5 KB)
+0007.236 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 4700 files added (on-disk size: 22992.5 KB)
+0007.263 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 4800 files added (on-disk size: 22992.5 KB)
+0007.292 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 4900 files added (on-disk size: 22992.5 KB)
+0007.318 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 5000 files added (on-disk size: 22992.5 KB)
+0007.319 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.5 MB, 8487 files batched, 1001 (5005) added so far); re-opening (prior size: 22992.5 KB)
+0008.321 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 5100 files added (on-disk size: 28501.1 KB)
+0008.341 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 5200 files added (on-disk size: 28501.1 KB)
+0008.361 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 5300 files added (on-disk size: 28501.1 KB)
+0008.384 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 5400 files added (on-disk size: 28501.1 KB)
+0008.407 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 5500 files added (on-disk size: 28501.1 KB)
+0008.430 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 5600 files added (on-disk size: 28501.1 KB)
+0008.452 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 5700 files added (on-disk size: 28501.1 KB)
+0008.474 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 5800 files added (on-disk size: 28501.1 KB)
+0008.495 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 5900 files added (on-disk size: 28501.1 KB)
+0008.519 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 6000 files added (on-disk size: 28501.1 KB)
+0008.520 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.1 MB, 8487 files batched, 1001 (6006) added so far); re-opening (prior size: 28501.1 KB)
+0009.377 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 6100 files added (on-disk size: 34656.5 KB)
+0009.399 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 6200 files added (on-disk size: 34656.5 KB)
+0009.424 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 6300 files added (on-disk size: 34656.5 KB)
+0009.448 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 6400 files added (on-disk size: 34656.5 KB)
+0009.472 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 6500 files added (on-disk size: 34656.5 KB)
+0009.495 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 6600 files added (on-disk size: 34656.5 KB)
+0009.507 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.9 MB, 8487 files batched, 645 (6651) added so far); re-opening (prior size: 34656.5 KB)
+0011.082 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 1.8 s, rate: 14480.1 KB/s)
+0011.083 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.9005401134491, normalised_time=1.767944354317, max_time=11.082062005997, data points known=1, old_max_bytes=26214400, new_max_bytes=98592335)
+0011.126 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 6700 files added (on-disk size: 42059.9 KB)
+0011.147 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 6800 files added (on-disk size: 42059.9 KB)
+0011.168 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 6900 files added (on-disk size: 42059.9 KB)
+0011.189 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 7000 files added (on-disk size: 42059.9 KB)
+0011.210 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 7100 files added (on-disk size: 42059.9 KB)
+0011.231 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 7200 files added (on-disk size: 42059.9 KB)
+0011.254 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 7300 files added (on-disk size: 42059.9 KB)
+0011.277 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 7400 files added (on-disk size: 42059.9 KB)
+0011.299 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 7500 files added (on-disk size: 42059.9 KB)
+0011.322 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 7600 files added (on-disk size: 42059.9 KB)
+0011.336 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (28.6 MB, 8487 files batched, 1001 (7652) added so far); re-opening (prior size: 42059.9 KB)
+0013.125 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 7700 files added (on-disk size: 49883.4 KB)
+0013.145 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 7800 files added (on-disk size: 49883.4 KB)
+0013.167 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 7900 files added (on-disk size: 49883.4 KB)
+0013.195 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 8000 files added (on-disk size: 49883.4 KB)
+0013.227 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 8100 files added (on-disk size: 49883.4 KB)
+0013.257 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 8200 files added (on-disk size: 49883.4 KB)
+0013.287 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 8300 files added (on-disk size: 49883.4 KB)
+0013.313 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.tmp: 8400 files added (on-disk size: 49883.4 KB)
+0014.567 (0) Creating zip file manifest (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.list-temp.tmp)
+0014.589 (0) Successfully created zip file manifest (size: 704850)
+0014.931 (0) Created plugins zip (0) - 56425.5 KB in 14.9 s (3784.5 KB/s) (sha1: 58925b73f0e60f38af6f28ecd47c03a72cbae110, sha256: b4f41eb9d8ddce0b32f5b22635df7d06fdcd64ec6dcb9979aa69f10cc964c942)
+0014.935 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0014.936 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-b57e6e71d0e97b803db98d147abf9448)
+0014.936 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0015.249 (0) Successfully updated and refreshed the access token
+0015.249 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0015.724 (0) Dropbox: quota usage: used=195223.5 MB, total=2100480 MB, available=1905256.5 MB
+0015.725 (0) Dropbox: Attempt to upload: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip to: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip
+0016.513 (0) Dropbox chunked upload: 1.8 % uploaded (pid_upload_session:ABIIQPsmnDOjgLRXwLCLVIsQ5GzsaGcWsJ30LGyLMwm62BrPbQ, 1048576, 9216 KB)
+0017.486 (0) Dropbox chunked upload: 18.1 % uploaded (pid_upload_session:ABIIQPsmnDOjgLRXwLCLVIsQ5GzsaGcWsJ30LGyLMwm62BrPbQ, 10485760, 10240 KB)
+0018.725 (0) Dropbox chunked upload: 36.3 % uploaded (pid_upload_session:ABIIQPsmnDOjgLRXwLCLVIsQ5GzsaGcWsJ30LGyLMwm62BrPbQ, 20971520, 10240 KB)
+0019.497 (0) Dropbox chunked upload: 54.4 % uploaded (pid_upload_session:ABIIQPsmnDOjgLRXwLCLVIsQ5GzsaGcWsJ30LGyLMwm62BrPbQ, 31457280, 10240 KB)
+0020.544 (0) Dropbox chunked upload: 72.6 % uploaded (pid_upload_session:ABIIQPsmnDOjgLRXwLCLVIsQ5GzsaGcWsJ30LGyLMwm62BrPbQ, 41943040, 10240 KB)
+0021.425 (0) Dropbox chunked upload: 90.7 % uploaded (pid_upload_session:ABIIQPsmnDOjgLRXwLCLVIsQ5GzsaGcWsJ30LGyLMwm62BrPbQ, 52428800, 10240 KB)
+0022.729 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIIQPsmnDOjgLRXwLCLVIsQ5GzsaGcWsJ30LGyLMwm62BrPbQ, 57779666, 10240 KB)
+0024.119 (0) Recording as successfully uploaded: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip
+0024.132 (0) Deleting local file: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip: OK
+0024.133 (0) Dropbox: File upload success (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip): 56425 KB in 8s (6711 KB/s)
+0024.135 (0) Beginning creation of dump of themes (split every: 400 MB)
+0024.137 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0024.144 (0) Total entities for the zip file: 9 directories, 54 files (0 skipped as non-modified), 0.4 MB
+0024.176 (0) Creating zip file manifest (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-themes.zip.list-temp.tmp)
+0024.177 (0) Successfully created zip file manifest (size: 3231)
+0024.179 (0) Created themes zip (0) - 192 KB in 0 s (4548.6 KB/s) (sha1: a678c470cfefa2b5049a630540900f7eee5dc005, sha256: f811649124646fd0ac086b213bdb68bc4464640cf5ce1e89e11cc94bdb9b6699)
+0024.181 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0024.181 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-b57e6e71d0e97b803db98d147abf9448)
+0024.181 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0024.182 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0024.524 (0) Dropbox: quota usage: used=195278.6 MB, total=2100480 MB, available=1905201.4 MB
+0024.524 (0) Dropbox: Attempt to upload: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-themes.zip to: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-themes.zip
+0025.051 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIIQITt7rwbw8boS0e_nQn12jsXxXyiuAM1c5UOw2Fco5EXTw, 196584, 10240 KB)
+0025.992 (0) Recording as successfully uploaded: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-themes.zip
+0025.993 (0) Deleting local file: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-themes.zip: OK
+0025.993 (0) Dropbox: File upload success (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-themes.zip): 191 KB in 1s (130 KB/s)
+0025.996 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0025.996 (0) Looking for candidates to backup in: /home/redwattl/public_html/wp-content/uploads
+0025.997 (0) finding files: unlimited_elements_cache: adding to list (1)
+0025.997 (0) finding files: wpcf7_uploads: adding to list (2)
+0025.997 (0) finding files: 2024: adding to list (3)
+0025.997 (0) finding files: ac_assets: adding to list (4)
+0025.997 (0) finding files: wpforms: adding to list (5)
+0025.998 (0) finding files: embedpress: adding to list (6)
+0025.998 (0) finding files: ai-builder: adding to list (7)
+0025.998 (0) finding files: wpo: adding to list (8)
+0025.998 (0) finding files: elementor: adding to list (9)
+0025.998 (0) finding files: ast-block-templates-json: adding to list (10)
+0025.999 (0) finding files: astra-sites: adding to list (11)
+0025.999 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0026.000 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0026.038 (0) Total entities for the zip file: 19 directories, 396 files (0 skipped as non-modified), 58.3 MB
+0026.057 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0026.076 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0026.095 (0) Zip: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0026.897 (0) Creating zip file manifest (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-uploads.zip.list-temp.tmp)
+0026.898 (0) Successfully created zip file manifest (size: 24707)
+0027.143 (0) Created uploads zip (0) - 40462.1 KB in 1.1 s (35417.6 KB/s) (sha1: dc87ccdf55f52ee052ad29a7264eae103dd1c109, sha256: fab1425eac29225057ed1dd2741c0096a91d1e3971f877555932490a24c5fe6b)
+0027.145 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0027.145 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-b57e6e71d0e97b803db98d147abf9448)
+0027.146 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0027.147 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0027.464 (0) Dropbox: quota usage: used=195278.7 MB, total=2100480 MB, available=1905201.3 MB
+0027.465 (0) Dropbox: Attempt to upload: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-uploads.zip to: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-uploads.zip
+0028.450 (0) Dropbox chunked upload: 25.3 % uploaded (pid_upload_session:ABIIQNZNyBO0z_WB7RFNpQbeh1oRUOkKMFynYnxujq0jVwhWBA, 10485760, 10240 KB)
+0029.234 (0) Dropbox chunked upload: 50.6 % uploaded (pid_upload_session:ABIIQNZNyBO0z_WB7RFNpQbeh1oRUOkKMFynYnxujq0jVwhWBA, 20971520, 10240 KB)
+0030.209 (0) Dropbox chunked upload: 75.9 % uploaded (pid_upload_session:ABIIQNZNyBO0z_WB7RFNpQbeh1oRUOkKMFynYnxujq0jVwhWBA, 31457280, 10240 KB)
+0031.244 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIIQNZNyBO0z_WB7RFNpQbeh1oRUOkKMFynYnxujq0jVwhWBA, 41433226, 10240 KB)
+0032.226 (0) Recording as successfully uploaded: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-uploads.zip
+0032.235 (0) Deleting local file: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-uploads.zip: OK
+0032.235 (0) Dropbox: File upload success (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-uploads.zip): 40462 KB in 4s (8483 KB/s)
+0032.237 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0032.238 (0) Does not exist: /home/redwattl/public_html/wp-content/mu-plugins
+0032.238 (0) There are no mu-plugins to backup. Will not raise an error.
+0032.238 (0) mu-plugins: create_zip returned an error
+0032.239 (0) Beginning backup of other directories found in the content directory (index: 0)
+0032.239 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0032.239 (0) Looking for candidates to backup in: /home/redwattl/public_html/wp-content
+0032.239 (0) finding files: plugins: skipping: this is the plugins directory
+0032.239 (0) finding files: updraft: skipping: this is the updraft directory
+0032.240 (0) finding files: uploads: skipping: this is the uploads directory
+0032.240 (0) finding files: index.php: adding to list (1)
+0032.240 (0) finding files: backuply: skipping: excluded by options (glob)
+0032.240 (0) finding files: speedycache-config: adding to list (2)
+0032.240 (0) finding files: cache: skipping: excluded by options
+0032.241 (0) finding files: upgrade: skipping: excluded by options
+0032.241 (0) finding files: themes: skipping: this is the themes directory
+0032.241 (0) finding files: advanced-cache.php: adding to list (3)
+0032.242 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 419, wp-content/plugins/updraftplus/class-updraftplus.php)
+0032.244 (0) Total entities for the zip file: 1 directories, 3 files (0 skipped as non-modified), 0 MB
+0032.246 (0) Creating zip file manifest (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-others.zip.list-temp.tmp)
+0032.246 (0) Successfully created zip file manifest (size: 120)
+0032.248 (0) Created others zip (0) - 2.5 KB in 0 s (503.3 KB/s) (sha1: 064a087b05d641aa6249125f04246fd527c21984, sha256: 7b2c0c7b5bb0045ea4911156b5941df8b826d02479736f36cb6ee2ca8e86fffa)
+0032.249 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0032.250 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-b57e6e71d0e97b803db98d147abf9448)
+0032.250 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0032.251 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0033.330 (0) Dropbox: quota usage: used=195318.3 MB, total=2100480 MB, available=1905161.7 MB
+0033.331 (0) Dropbox: Attempt to upload: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-others.zip to: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-others.zip
+0033.731 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIIQB0yb4oR2AsKxoh28svHwKdI_m6iav1o5y3NB6TzE_u4-w, 2588, 10240 KB)
+0034.543 (0) Recording as successfully uploaded: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-others.zip
+0034.545 (0) Deleting local file: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-others.zip: OK
+0034.545 (0) Dropbox: File upload success (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-others.zip): 2 KB in 1s (2 KB/s)
+0034.549 (0) Saving backup status to database (elements: 8)
+0034.550 (0) Beginning creation of database dump (WordPress DB)
+0034.550 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0034.558 (0) Table wpxc_options: Total expected rows (via COUNT): 373
+0034.558 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.589 (0) Table wpxc_options: Rows added in this batch (next record: 3633): 369 (uncompressed bytes in this segment=1118499) in 0.03 seconds
+0034.592 (0) Table wpxc_options: finishing file(s) (2, 152.8 KB)
+0034.593 (0) Table wpxc_users: Total expected rows (via COUNT): 1
+0034.594 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.595 (0) Table wpxc_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1184) in 0.00 seconds
+0034.597 (0) Table wpxc_users: finishing file(s) (2, 0.6 KB)
+0034.599 (0) Table wpxc_usermeta: Total expected rows (via COUNT): 33
+0034.599 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.600 (0) Table wpxc_usermeta: Rows added in this batch (next record: 35): 33 (uncompressed bytes in this segment=3469) in 0.00 seconds
+0034.602 (0) Table wpxc_usermeta: finishing file(s) (2, 1.7 KB)
+0034.604 (0) Table wpxc_actionscheduler_actions: Total expected rows (via COUNT): 31
+0034.604 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.606 (0) Table wpxc_actionscheduler_actions: Rows added in this batch (next record: 566): 31 (uncompressed bytes in this segment=15417) in 0.00 seconds
+0034.608 (0) Table wpxc_actionscheduler_actions: finishing file(s) (2, 1.8 KB)
+0034.611 (0) Table wpxc_actionscheduler_claims: Total expected rows (via COUNT): 0
+0034.612 (0) Table wpxc_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=638) in 0.00 seconds
+0034.615 (0) Table wpxc_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0034.617 (0) Table wpxc_actionscheduler_groups: Total expected rows (via COUNT): 2
+0034.617 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.618 (0) Table wpxc_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=689) in 0.00 seconds
+0034.620 (0) Table wpxc_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0034.623 (0) Table wpxc_actionscheduler_logs: Total expected rows (via COUNT): 83
+0034.623 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.625 (0) Table wpxc_actionscheduler_logs: Rows added in this batch (next record: 83): 83 (uncompressed bytes in this segment=7864) in 0.00 seconds
+0034.627 (0) Table wpxc_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0034.629 (0) Table wpxc_commentmeta: Total expected rows (via COUNT): 0
+0034.630 (0) Table wpxc_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.00 seconds
+0034.632 (0) Table wpxc_commentmeta: finishing file(s) (2, 0.4 KB)
+0034.634 (0) Table wpxc_comments: Total expected rows (via COUNT): 1
+0034.635 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0034.635 (0) Table wpxc_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1899) in 0.00 seconds
+0034.637 (0) Table wpxc_comments: finishing file(s) (2, 0.7 KB)
+0034.640 (0) Table wpxc_links: Total expected rows (via COUNT): 0
+0034.640 (0) Table wpxc_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1039) in 0.00 seconds
+0034.642 (0) Table wpxc_links: finishing file(s) (2, 0.5 KB)
+0034.669 (0) Table wpxc_postmeta: Total expected rows (approximate): 3857
+0035.711 (0) Table wpxc_postmeta: Rows added in this batch (next record: 7802): 3857 (uncompressed bytes in this segment=60056030) in 1.07 seconds
+0035.714 (0) Table wpxc_postmeta: finishing file(s) (2, 5503.4 KB)
+0035.721 (0) Table wpxc_posts: Total expected rows (via COUNT): 769
+0035.831 (0) Table wpxc_posts: Rows added in this batch (next record: 1044): 769 (uncompressed bytes in this segment=10010501) in 0.12 seconds
+0035.833 (0) Table wpxc_posts: finishing file(s) (2, 262.4 KB)
+0035.835 (0) Table wpxc_term_relationships: Total expected rows (approximate): 5
+0035.836 (0) Table wpxc_term_relationships: Rows added in this batch (next record: 100000): 5 (uncompressed bytes in this segment=766) in 0.00 seconds
+0035.838 (0) Table wpxc_term_relationships: finishing file(s) (2, 0.4 KB)
+0035.840 (0) Table wpxc_term_taxonomy: Total expected rows (via COUNT): 2
+0035.840 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.841 (0) Table wpxc_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=903) in 0.00 seconds
+0035.842 (0) Table wpxc_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0035.846 (0) Table wpxc_termmeta: Total expected rows (via COUNT): 0
+0035.846 (0) Table wpxc_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=619) in 0.00 seconds
+0035.848 (0) Table wpxc_termmeta: finishing file(s) (2, 0.4 KB)
+0035.850 (0) Table wpxc_terms: Total expected rows (via COUNT): 2
+0035.850 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.851 (0) Table wpxc_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=721) in 0.00 seconds
+0035.854 (0) Table wpxc_terms: finishing file(s) (2, 0.4 KB)
+0035.856 (0) Table wpxc_addonlibrary_addons: Total expected rows (via COUNT): 0
+0035.857 (0) Table wpxc_addonlibrary_addons: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=936) in 0.00 seconds
+0035.859 (0) Table wpxc_addonlibrary_addons: finishing file(s) (2, 0.4 KB)
+0035.861 (0) Table wpxc_addonlibrary_categories: Total expected rows (via COUNT): 0
+0035.861 (0) Table wpxc_addonlibrary_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0035.863 (0) Table wpxc_addonlibrary_categories: finishing file(s) (2, 0.4 KB)
+0035.865 (0) Table wpxc_e_events: Total expected rows (via COUNT): 1
+0035.865 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.866 (0) Table wpxc_e_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=787) in 0.00 seconds
+0035.867 (0) Table wpxc_e_events: finishing file(s) (2, 0.5 KB)
+0035.870 (0) Table wpxc_e_submissions: Total expected rows (via COUNT): 0
+0035.871 (0) Table wpxc_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1991) in 0.00 seconds
+0035.873 (0) Table wpxc_e_submissions: finishing file(s) (2, 0.7 KB)
+0035.875 (0) Table wpxc_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0035.875 (0) Table wpxc_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1152) in 0.00 seconds
+0035.877 (0) Table wpxc_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0035.880 (0) Table wpxc_e_submissions_values: Total expected rows (via COUNT): 0
+0035.880 (0) Table wpxc_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0035.882 (0) Table wpxc_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0035.883 (0) Table wpxc_loginizer_logs: Total expected rows (approximate): 11
+0035.884 (0) Table wpxc_loginizer_logs: Rows added in this batch (next record: 1000): 11 (uncompressed bytes in this segment=1662) in 0.00 seconds
+0035.885 (0) Table wpxc_loginizer_logs: finishing file(s) (2, 0.6 KB)
+0035.888 (0) Table wpxc_tm_taskmeta: Total expected rows (via COUNT): 1
+0035.888 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.889 (0) Table wpxc_tm_taskmeta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1783) in 0.00 seconds
+0035.891 (0) Table wpxc_tm_taskmeta: finishing file(s) (2, 0.9 KB)
+0035.894 (0) Table wpxc_tm_tasks: Total expected rows (via COUNT): 1
+0035.894 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.894 (0) Table wpxc_tm_tasks: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=978) in 0.00 seconds
+0035.896 (0) Table wpxc_tm_tasks: finishing file(s) (2, 0.5 KB)
+0035.898 (0) Table wpxc_wpforms_logs: Total expected rows (via COUNT): 0
+0035.899 (0) Table wpxc_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=671) in 0.00 seconds
+0035.901 (0) Table wpxc_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0035.903 (0) Table wpxc_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0035.904 (0) Table wpxc_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.00 seconds
+0035.906 (0) Table wpxc_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0035.908 (0) Table wpxc_wpforms_payments: Total expected rows (via COUNT): 0
+0035.909 (0) Table wpxc_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1662) in 0.00 seconds
+0035.911 (0) Table wpxc_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0035.914 (0) Table wpxc_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0035.914 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0035.915 (0) Table wpxc_wpforms_tasks_meta: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=926) in 0.00 seconds
+0035.917 (0) Table wpxc_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0035.917 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/redwattl/public_html/wp-content/updraft/backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0035.918 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_options.table.tmpr3634.gz (1/29/fopen): adding to final database dump
+0035.920 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_options.table.gz (2/29/fopen): adding to final database dump
+0035.920 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_users.table.tmpr2.gz (3/29/fopen): adding to final database dump
+0035.920 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_users.table.gz (4/29/fopen): adding to final database dump
+0035.921 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_usermeta.table.tmpr36.gz (5/29/fopen): adding to final database dump
+0035.921 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_usermeta.table.gz (6/29/fopen): adding to final database dump
+0035.921 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_actionscheduler_actions.table.tmpr567.gz (7/29/fopen): adding to final database dump
+0035.922 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_actionscheduler_actions.table.gz (8/29/fopen): adding to final database dump
+0035.922 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_actionscheduler_claims.table.tmpr0.gz (9/29/fopen): adding to final database dump
+0035.922 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_actionscheduler_claims.table.gz (10/29/fopen): adding to final database dump
+0035.922 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_actionscheduler_groups.table.tmpr3.gz (11/29/fopen): adding to final database dump
+0035.923 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_actionscheduler_groups.table.gz (12/29/fopen): adding to final database dump
+0035.923 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_actionscheduler_logs.table.tmpr84.gz (13/29/fopen): adding to final database dump
+0035.923 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_actionscheduler_logs.table.gz (14/29/fopen): adding to final database dump
+0035.924 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_commentmeta.table.tmpr0.gz (15/29/fopen): adding to final database dump
+0035.924 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_commentmeta.table.gz (16/29/fopen): adding to final database dump
+0035.924 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_comments.table.tmpr2.gz (17/29/fopen): adding to final database dump
+0035.925 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_comments.table.gz (18/29/fopen): adding to final database dump
+0035.925 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_links.table.tmpr0.gz (19/29/fopen): adding to final database dump
+0035.925 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_links.table.gz (20/29/fopen): adding to final database dump
+0035.926 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_postmeta.table.tmpr7803.gz (21/29/fopen): adding to final database dump
+0035.983 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_postmeta.table.gz (22/29/fopen): adding to final database dump
+0035.983 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_posts.table.tmpr1045.gz (23/29/fopen): adding to final database dump
+0035.986 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_posts.table.gz (24/29/fopen): adding to final database dump
+0035.987 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_term_relationships.table.tmpr100001.gz (25/29/fopen): adding to final database dump
+0035.987 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_term_relationships.table.gz (26/29/fopen): adding to final database dump
+0035.987 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_term_taxonomy.table.tmpr3.gz (27/29/fopen): adding to final database dump
+0035.987 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_term_taxonomy.table.gz (28/29/fopen): adding to final database dump
+0035.988 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_termmeta.table.tmpr0.gz (29/29/fopen): adding to final database dump
+0035.988 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_termmeta.table.gz (30/29/fopen): adding to final database dump
+0035.988 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_terms.table.tmpr3.gz (31/29/fopen): adding to final database dump
+0035.989 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_terms.table.gz (32/29/fopen): adding to final database dump
+0035.989 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_addonlibrary_addons.table.tmpr0.gz (33/29/fopen): adding to final database dump
+0035.989 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_addonlibrary_addons.table.gz (34/29/fopen): adding to final database dump
+0035.989 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_addonlibrary_categories.table.tmpr0.gz (35/29/fopen): adding to final database dump
+0035.990 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_addonlibrary_categories.table.gz (36/29/fopen): adding to final database dump
+0035.990 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_e_events.table.tmpr2.gz (37/29/fopen): adding to final database dump
+0035.990 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_e_events.table.gz (38/29/fopen): adding to final database dump
+0035.990 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_e_submissions.table.tmpr0.gz (39/29/fopen): adding to final database dump
+0035.991 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_e_submissions.table.gz (40/29/fopen): adding to final database dump
+0035.991 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_e_submissions_actions_log.table.tmpr0.gz (41/29/fopen): adding to final database dump
+0035.991 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_e_submissions_actions_log.table.gz (42/29/fopen): adding to final database dump
+0035.991 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_e_submissions_values.table.tmpr0.gz (43/29/fopen): adding to final database dump
+0035.992 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_e_submissions_values.table.gz (44/29/fopen): adding to final database dump
+0035.992 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_loginizer_logs.table.tmpr1001.gz (45/29/fopen): adding to final database dump
+0035.992 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_loginizer_logs.table.gz (46/29/fopen): adding to final database dump
+0035.992 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_tm_taskmeta.table.tmpr2.gz (47/29/fopen): adding to final database dump
+0035.993 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_tm_taskmeta.table.gz (48/29/fopen): adding to final database dump
+0035.993 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_tm_tasks.table.tmpr2.gz (49/29/fopen): adding to final database dump
+0035.993 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_tm_tasks.table.gz (50/29/fopen): adding to final database dump
+0035.994 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_wpforms_logs.table.tmpr0.gz (51/29/fopen): adding to final database dump
+0035.994 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_wpforms_logs.table.gz (52/29/fopen): adding to final database dump
+0035.994 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_wpforms_payment_meta.table.tmpr0.gz (53/29/fopen): adding to final database dump
+0035.995 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_wpforms_payment_meta.table.gz (54/29/fopen): adding to final database dump
+0035.995 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_wpforms_payments.table.tmpr0.gz (55/29/fopen): adding to final database dump
+0035.997 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_wpforms_payments.table.gz (56/29/fopen): adding to final database dump
+0035.997 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_wpforms_tasks_meta.table.tmpr5.gz (57/29/fopen): adding to final database dump
+0035.997 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db-table-wpxc_wpforms_tasks_meta.table.gz (58/29/fopen): adding to final database dump
+0036.000 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db.gz: finished writing out complete database file (5934.7 KB)
+0036.043 (0) Total database tables backed up: 29 (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db.gz, size: 6077248, sha1: 0afb4a667a60411c8154fcacca33e95472ec1644, sha256: 91c1fe717878dbb54c0847bee5f2870038044d55e22af8da96c8ddff5924da20)
+0036.046 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip: plugins: This file has already been successfully uploaded
+0036.046 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-themes.zip: themes: This file has already been successfully uploaded
+0036.046 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-uploads.zip: uploads: This file has already been successfully uploaded
+0036.047 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-others.zip: others: This file has already been successfully uploaded
+0036.047 (0) backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0036.047 (0) Saving backup history. Total backup size: 100.6 MB
+0036.048 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0036.050 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0036.050 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-b57e6e71d0e97b803db98d147abf9448)
+0036.050 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0036.051 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0036.379 (0) Dropbox: quota usage: used=195318.3 MB, total=2100480 MB, available=1905161.7 MB
+0036.380 (0) Dropbox: Attempt to upload: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db.gz to: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db.gz
+0037.537 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIIQFcpcte0DfHnfKprYZuyQt_GloUIngCusaZXoWUxHtZGWg, 6077248, 10240 KB)
+0038.763 (0) Recording as successfully uploaded: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db.gz
+0038.766 (0) Deleting local file: backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db.gz: OK
+0038.766 (0) Dropbox: File upload success (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-db.gz): 5934 KB in 2s (2487 KB/s)
+0038.768 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0038.768 (0) Number of backup sets in history: 4; groups (db): 1
+0038.769 (0) Examining (for databases) backup set with group_id=0, nonce=2fe0a2105f2d, datestamp=1726464414 (Sep 16 2024 05:26:54)
+0038.769 (0) This backup set is the backup set just made, so will not be deleted.
+0038.769 (0) Examining (for databases) backup set with group_id=0, nonce=0c0241b6dd2a, datestamp=1726377482 (Sep 15 2024 05:18:02)
+0038.769 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.769 (0) Examining (for databases) backup set with group_id=0, nonce=283ccd6772b9, datestamp=1726291686 (Sep 14 2024 05:28:06)
+0038.770 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.770 (0) Examining (for databases) backup set with group_id=0, nonce=97d377dd0b0a, datestamp=1726205417 (Sep 13 2024 05:30:17)
+0038.770 (0) 1726205417: db: this set includes a database (backup_2024-09-13-0530_Red_Wattle_Hog_97d377dd0b0a-db.gz); db count is now 3
+0038.770 (0) 1726205417: db: over retain limit (3); will delete this database
+0038.770 (0) Dropbox: request deletion: backup_2024-09-13-0530_Red_Wattle_Hog_97d377dd0b0a-db.gz
+0039.394 (0) Dropbox: deletion succeeded
+0039.395 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0039.396 (0) Number of backup sets in history: 4; groups (files): 1
+0039.396 (0) Examining (for files) backup set with nonce=2fe0a2105f2d, datestamp=1726464414 (Sep 16 2024 05:26:54)
+0039.396 (0) This backup set is the backup set just made, so will not be deleted.
+0039.396 (0) This backup set is the backup set just made, so will not be deleted.
+0039.396 (0) This backup set is the backup set just made, so will not be deleted.
+0039.396 (0) This backup set is the backup set just made, so will not be deleted.
+0039.396 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0039.396 (0) Examining (for files) backup set with nonce=0c0241b6dd2a, datestamp=1726377482 (Sep 15 2024 05:18:02)
+0039.396 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0039.396 (0) Examining (for files) backup set with nonce=283ccd6772b9, datestamp=1726291686 (Sep 14 2024 05:28:06)
+0039.396 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0039.396 (0) Examining (for files) backup set with nonce=97d377dd0b0a, datestamp=1726205417 (Sep 13 2024 05:30:17)
+0039.396 (0) plugins: over retain limit (3); will delete this file entity
+0039.396 (0) themes: over retain limit (3); will delete this file entity
+0039.396 (0) uploads: over retain limit (3); will delete this file entity
+0039.396 (0) others: over retain limit (3); will delete this file entity
+0039.397 (0) Dropbox: request deletion: backup_2024-09-13-0530_Red_Wattle_Hog_97d377dd0b0a-plugins.zip
+0040.083 (0) Dropbox: deletion succeeded
+0040.084 (0) Dropbox: request deletion: backup_2024-09-13-0530_Red_Wattle_Hog_97d377dd0b0a-themes.zip
+0040.750 (0) Dropbox: deletion succeeded
+0040.750 (0) Dropbox: request deletion: backup_2024-09-13-0530_Red_Wattle_Hog_97d377dd0b0a-uploads.zip
+0041.403 (0) Dropbox: deletion succeeded
+0041.404 (0) Dropbox: request deletion: backup_2024-09-13-0530_Red_Wattle_Hog_97d377dd0b0a-others.zip
+0042.021 (0) Dropbox: deletion succeeded
+0042.022 (0) This backup set is now empty; will remove from history
+0042.023 (0) Deleting log file (log.97d377dd0b0a.txt)
+0042.023 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0042.024 (0) Resume backup (2fe0a2105f2d, 0): finish run
+0042.025 (0) Decremented the semaphore (fd) by 1
+0042.025 (0) Semaphore (fd) unlocked
+0042.025 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0042.027 (0) Deleting zip manifest (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-plugins.zip.list.tmp)
+0042.027 (0) Deleting zip manifest (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-themes.zip.list.tmp)
+0042.027 (0) Deleting zip manifest (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-uploads.zip.list.tmp)
+0042.028 (0) Deleting zip manifest (backup_2024-09-16-0526_Red_Wattle_Hog_2fe0a2105f2d-others.zip.list.tmp)
+0042.028 (0) Fetching RSS news feed
+0042.864 (0) Fetched RSS news feed; result is a: SimplePie
+0042.880 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: sales...
+0042.945 (0) The backup succeeded and is now complete
